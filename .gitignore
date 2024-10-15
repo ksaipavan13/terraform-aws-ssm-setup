@@ -1,0 +1,28 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude backup files
+*.backup
+
+# Exclude sensitive Terraform variables files
+*.tfvars
+*.tfvars.json
+
+# Terraform Plan files
+*.tfplan
+
+# Provider configuration files
+*.terraformrc
+terraform.rc
+
+# Sensitive SSH key files (if used)
+*.pem
+*.key
+
